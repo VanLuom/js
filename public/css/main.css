@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #7cdef2;
+    --primary-color: #46de0a;
 }
 
 /* Header */
@@ -144,8 +144,8 @@
 
 .formbody {
     height: 500px;
-    background-color: #a0f1fa;
-    border-bottom: 2px dotted #9c9c9c;
+    background-color: #d8e403;
+    border-bottom: 2px dotted #06d1bd;
     padding: 0;
     overflow: auto;
 }
@@ -201,7 +201,7 @@
 
 /* PAY RIGHT */
 .input-info {
-    background-color: #b1c3d5;
+    background-color: #08bc92;
     height: 50%;
 }
 

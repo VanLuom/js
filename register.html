@@ -15,11 +15,9 @@
   integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
   <script src="public/js/login.js"></script>
 </head>
-
-<body>
-  <div class="signup">
-    <h1 class="signup-heading">Sign In</h1>
-    <div class="signup-or"><span>Or</span></div>
+<body style="background-image: url(./img/kk.jpg); background-repeat: no-repeat; height: calc(100vh - 80px);position: relative; background-size: cover;">
+  <div class="signup" >
+    <h1 class="signup-heading">Đăng kí</h1>
 
     <div class="email-group">
       <label for="fullname" class="signup-label">Email</label>
@@ -27,14 +25,14 @@
     </div>
 
     <div class="password-group">
-      <label for="password" class="signup-label">Password</label>
+      <label for="password" class="signup-label">Mật khẩu</label>
       <input type="password" id="password" class="signup-input">
     </div>
     
- <button class="signup-submit" onclick="doRegister()">Đăng kí</button>
+ <button class="signup-submit" onclick="doRegister()" style="background-color: brown;">Đăng kí</button>
     <p class="signup-already">
       <span>Already have an account ?</span>
-      <a href="login.html" class="signup-login-link">Login</a>
+      <a href="login.html" class="signup-login-link">Đăng nhập</a>
     </p>
   </div>
 </body>

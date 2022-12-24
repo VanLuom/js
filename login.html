@@ -16,23 +16,23 @@
   
 </head>
 
-<body>
+<body style="background-image: url(./img/kk.jpg); background-repeat: no-repeat; height: calc(100vh - 80px);position: relative; background-size: cover;">
   <div class="signup">
-    <h1 class="signup-heading">Login</h1>
+    <h1 class="signup-heading">Đăng nhập</h1>
     <div class="email-group">
       <label for="fullname" class="signup-label">Email</label>
       <input type="text" name="email" id="email" class="signup-input">
     </div>
 
     <div class="password-group">
-      <label for="password" class="signup-label">Password</label>
+      <label for="password" class="signup-label">Mật khẩu</label>
       <input type="password" id="password" name="password" class="signup-input">
     </div>
 
-    <button class="signup-submit" onclick="doLogin()">Login</button>
+    <button class="signup-submit" onclick="doLogin()" style="background-color: brown;">Đăng nhập</button>
     <p class="signup-already">
       <span>Already have an account ?</span>
-      <a href="register.html" class="signup-login-link">Dang ki</a>
+      <a href="register.html" class="signup-login-link">Đăng kí</a>
     </p>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
